@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: grid;
+  /* place-items: center; */
+  padding: 80px 20px;
+  background-image: "url(./images/signupimg.jpg)";
+}
+
+.signup {
+  padding: 10px 60px;
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 480px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+
+.signup-heading {
+  text-align: center;
+  font-weight: 600;
+  /* color: #gray; */
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.signup-google {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 16px;
+  background-color: rgb(15, 51, 171);
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: 45px;
+  box-shadow: 0 10px 20px -5px rgba(244, 244, 243, 0);
+}
+.signup-google-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff7870;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 25px;
+  }
+.signup-google-text {
+  color: white;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+}
+
+.signup-or {
+  color: #363a40;
+  display: block;
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.signup-or-text {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: white;
+  position: relative;
+  font-size: 14px;
+}
+.signup-or:before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #999;
+  transform: translateY(-50%);
+}
+.signup-already {
+  text-align: center;
+  color: #363a40;
+  font-size: 13px;
+}
+.signup-already-link {
+  color: #4c6ef4;
+  text-decoration: none;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    background-color: #F2F3F5;
+    color: #363A40;
+    font-size: 16px;
+}
+
+
+.button {
+  color: white;
+  background-color: rgb(244, 115, 69);
+  border-color: white;
+  display: block;
+  width: 80%;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 20px 20px;
+
+}
+
+.img1 {
+  width: 50vw;
+  float: right;
+  margin-right: 100px;
+}
+.form-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #363A40;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+
+@media screen and (max-width: 767px) {
+  .signup {
+    padding: 30px 20px;
+  }
+}

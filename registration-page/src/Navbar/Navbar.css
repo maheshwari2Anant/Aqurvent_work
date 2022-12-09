@@ -1,0 +1,69 @@
+.nav-link {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    padding: 20px 30px;
+    position: relative;
+    cursor: pointer;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,
+    /* background-color .15s ease-in-out,
+    border-color .15s ease-in-out; */
+}
+
+.navbar .button-sm{
+    width: 145px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+
+.button-sm {
+    width: 7vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.default-btn {
+    
+    background-color: #ef7f19;
+    border-color: #ef7f19;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 11px;
+    line-height: normal;
+    transition: all .3s;
+}
+
+.login-btn {
+    color: #ef7f19!important;
+    background: #fff!important;
+    border: 1px solid#ff6666!important;
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+} */
+
+.nav-item{
+font-family: poppins, arial;
+    font-size: 16px;
+    
+    padding : 20px;
+
+
+    /* background-color:#000; */
+
+}
+
